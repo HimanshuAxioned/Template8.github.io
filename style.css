@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -46,3 +46,121 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* font awsm */
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  width: 96.5%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/* navigation */
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+nav { 
+  width: 29%; 
+  margin-left: 58.7%;
+}
+
+.nav-list {
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-size: 0.6em;
+}
+
+.nav-list a {
+  color: #808080;
+}
+
+.nav-list a:hover {
+  color: #000000;
+}
+.nav-list a:focus {
+  color: #000000;
+}
+
+
+.services {
+  position: relative;
+ }
+
+.services > ul{ 
+  display: none;
+  position: absolute;
+  transform: translateX(-40%);
+  padding-top: 100%;
+  padding: 30%;
+  background: #ffffff;
+  /* border: 2px solid red; */
+  border-radius: 0.2em;
+}
+
+.services:hover .dropdown-content{
+  display: block;
+}
+
+.services:focus .dropdown-content{
+  display: block;
+}
+
+.services li { 
+  padding: 20% 0;
+}
+
+.services > a::after {
+  content: "\f0d7";
+  padding: 0 10%;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.service1{ position: relative;}
+
+.service1-dropdown{ 
+  margin-left: 10%;
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 100%;
+  padding: 30%, 5%;
+  background: #ffffff;
+  /* border: 2px solid red; */
+  border-radius: 0.2em;
+
+}
+
+.service1:hover .service1-dropdown{
+  display: block;
+}
+
+.service1:focus .service1-dropdown{
+  display: block;
+}
+
+.service1 li { 
+  padding: 20% 0;
+}
+
+.service1 > a::after {
+  content: "\f0d7";
+  padding: 0 10%;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+} 
