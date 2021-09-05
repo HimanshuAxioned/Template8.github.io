@@ -104,8 +104,7 @@ h3::before {
 }
 
 
-
-h6 {
+h5 {
   font-size: 0.95em;
   text-transform: capitalize;
 }
@@ -344,7 +343,109 @@ nav {
 }
 
 .about-us-content p{
-  width: 40.2%;
+  width: 38.22%;
   color: #062633;
 }
+
+/* section unlimited */
+.unlimited {
+  margin-top: 3.5em;
+}
+
+.unlimited-content {
+  display: flex;
+}
+
+.unlimited-content figure {
+  width: 51.8%;
+  position: relative;
+  left: -1.8%;
+  text-align: center;
+  justify-content: center;
+}
+
+.unlimited-content > figure img {
+  width: 100%;
+  max-height: 28.4em;
+  object-fit: cover;
+}
+
+.unlimited-content ul {
+  margin-top: 1.7em; 
+}
+
+.unlimited-items li {
+  margin-bottom: 1.5em;
+  margin-left: 9.5%;
+  position: relative;
+}
+
+
+.drop:before{
+  content: "\f043";
+  position: absolute;
+  left: -7.5%;
+  color: #062633;
+  font-family: "Font Awesome 5 Free";
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.mobile::before{
+  content: "\f3cd";
+  position: absolute;
+  left: -7.5%;
+  color: #062633;
+  font-family: "Font Awesome 5 Free";
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.heart::before{
+  content: "\f004";
+  position: absolute;
+  left: -9.5%;
+  color: #062633;
+  font-family: "Font Awesome 5 Free";
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.barGraph::before{
+  content: "\f080";
+  position: absolute;
+  left: -9.5%;
+  color: #062633;
+  font-family: "Font Awesome 5 Free";
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.desk-globe::before{
+  content: "\f0ac";
+  position: absolute;
+  left: -9.5%;
+  color: #062633;
+  font-family: "Font Awesome 5 Free";
+  font-size: xx-large;
+  font-weight: 900;
+} 
+
+/* .unlimited-content h5, .unlimited-content p{
+
+} */
+
+.unlimited-content h5 {
+  width: 90%;
+  font-size: 1.1em;
+}
+
+.barGraph h5 , .desk-globe h5{
+  text-transform: initial;
+}
+
+.unlimited-content p {
+  width: 80%;
+}
+
 
