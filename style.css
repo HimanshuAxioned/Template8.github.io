@@ -239,7 +239,7 @@ nav {
 .banner {
   padding-top: 12%;
   background: #313131;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .banner-content {
@@ -686,7 +686,7 @@ footer a:hover { color: #c92e20;}
   }
 
   .nav-list { 
-    display: none;
+    display: block;
     margin-left: 40%;
     flex-direction: column;
   }
@@ -698,7 +698,8 @@ footer a:hover { color: #c92e20;}
   .nav-list a { font-size: 2em; }
 
   .services  ul { 
-    /* position: relative; */
+    padding: 0 30%;
+    position: relative;
     left: 30%;
   }
 
